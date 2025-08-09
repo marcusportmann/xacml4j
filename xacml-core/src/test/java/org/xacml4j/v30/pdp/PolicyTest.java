@@ -92,7 +92,7 @@ public class PolicyTest
 				.version("1.0")
 				.target(target)
 				.condition(condition)
-				.rule((Rule)c.createMock(Rule.class))
+				.rule(c.createMock(Rule.class))
 				.combiningAlgorithm(combingingAlg)
 				.obligation(ObligationExpression
 						.builder("denyObligation", Effect.DENY)
